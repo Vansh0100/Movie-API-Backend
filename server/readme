@@ -1,0 +1,4 @@
+go mod init github.com/Vansh0100/movieapi
+go get -u github.com/gorilla/mux
+go mod tidy
+go get go.mongodb.org/mongo-driver/mongo
